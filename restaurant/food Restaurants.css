@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* navigation bar */
+#header{
+    background-color: rgb(255, 124, 1);
+}
+#navbar{
+ display:flex;
+ align-items: center; 
+ 
+ position: relative;
+  
+ 
+}
+.image{
+    margin: 10px 0;
+    margin-left: 40px;
+    border: 2px solid rgb(255, 158, 12);
+    border-radius: 200px;
+}
+.logo{
+    margin: 17px 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 70px;
+    background-color: rgb(90, 1, 1);
+    
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul{
+    list-style: none;
+    font-size: 1.rem;
+    float: right ;
+}
+#navbar ul li a {
+    color:rgb(255, 251, 0);
+    display: block;
+    padding: 20px 50px ;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+/* THIS IS HOME PAGE */
+#homepage{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    justify-content:center;
+    align-items:center;
+    height: 266px;
+    font-family: mv boli;
+    font-size: 20px;
+    font-weight:normal;
+    margin-top: 150px;
+    color: rgb(179, 255, 2);
+}
+#homepage::before{
+    content: "";
+    position: absolute;
+    background: url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/inline-images/Foxtrot-Interior-Shot-1-.jpg")repeat-x center/cover;
+   margin-top: 380px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
+}
+.btn{
+    margin-top: 200px;
+    margin-left:900px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(252, 255, 75);
+    background-color: rgb(63, 0, 0);
+   border-radius: 50px;
+    
+}
+
+.logo ul{
+    position: relative;
+    margin: 0;
+    padding: 0%;
+     
+}
+.logo ul a {
+    text-decoration: none;
+    line-height: 32px;
+    padding: 0 35px;
+    display: block;
+   
+
+}
+.logo ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.logo ul ul{
+    position: absolute ;
+   
+   padding: 20px;
+    top: 100%;
+    left: 0;
+    display: none;
+    
+   
+}
+.logo ul ul li {
+    float: none;
+    width: 200px;
+   
+}
+.logo ul ul li {
+   top:0%;
+   width:200px;
+   
+}
+.logo ul   li:hover > ul{
+    display: block;
+}
+.logo ul ul ul {
+    top: 0px;
+    left: 100%;
+    width: 200px;
+   line-height: 10px;
+}
+.logo ul ul ul li {
+   
+    top: 0px;
+    margin-top: 20px;
+    background-color: rgb(58, 0, 0);
+    color: rgb(255, 242, 56);
+    border-radius: 70px;
+} 
+.logo ul ul li{
+   
+    margin: 20px;
+    background-color: rgb(58, 0, 0);
+    color: rgb(255, 242, 56);
+    border-radius: 70px;
+}
+.esgauge{
+    width: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
